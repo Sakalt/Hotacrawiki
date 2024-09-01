@@ -79,3 +79,46 @@ body {
     font-size: 12px;
     color: #666;
 }
+
+/* インフォボックスのスタイル */
+.infobox {
+    width: 250px;
+    float: right;
+    margin: 0 0 10px 20px;
+    border: 1px solid #aaa;
+    background-color: #f8f9fa;
+    font-size: 14px;
+    color: #333;
+}
+
+.infobox table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.infobox th,
+.infobox td {
+    padding: 4px;
+    border: 1px solid #ddd;
+    text-align: left;
+}
+
+.infobox-title {
+    background-color: #ddeeff;
+    text-align: center;
+    font-weight: bold;
+    color: #333;
+}
+
+/* 画像のスタイル */
+.infobox-image {
+    text-align: center; /* 画像を中央揃え */
+    padding: 5px;
+}
+
+.infobox-image img {
+    max-width: 100%; /* 画像の幅をボックス内に収める */
+    height: auto; /* 画像の比率を維持 */
+    border: 1px solid #ddd; /* 画像の枠線 */
+    background-color: #fff;
+}
