@@ -1,0 +1,124 @@
+/* ベーススタイル */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #099800;
+    margin: 0;
+    padding: 0;
+}
+
+#container {
+    width: 80%;
+    margin: 0 auto;
+    background-color: white;
+    border: 1px solid #ccc;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* ヘッダー */
+#header {
+    background-color: #f5f5f5;
+    border-bottom: 1px solid #aaa;
+    padding: 15px;
+    text-align: center;
+}
+
+#site-title a {
+    color: #222;
+    text-decoration: none;
+    font-size: 24px;
+}
+
+/* サイドバー */
+#sidebar {
+    width: 200px;
+    float: left;
+    padding: 15px;
+    background-color: #f5f5f5;
+    border-right: 1px solid #aaa;
+}
+
+#sidebar h2 {
+    font-size: 18px;
+    margin-top: 0;
+}
+
+#sidebar ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+#sidebar ul li {
+    margin: 5px 0;
+}
+
+#sidebar ul li a {
+    text-decoration: none;
+    color: #0645ad;
+}
+
+/* コンテンツエリア */
+#content {
+    margin-left: 220px; /* サイドバーの幅分を空ける */
+    padding: 20px;
+}
+
+#content h2 {
+    color: #222;
+    font-size: 20px;
+    border-bottom: 2px solid #aaa;
+    padding-bottom: 5px;
+}
+
+/* フッター */
+#footer {
+    clear: both;
+    background-color: #f5f5f5;
+    border-top: 1px solid #aaa;
+    text-align: center;
+    padding: 10px;
+    font-size: 12px;
+    color: #666;
+}
+
+/* インフォボックスのスタイル */
+.infobox {
+    width: 250px;
+    float: right;
+    margin: 0 0 10px 20px;
+    border: 1px solid #aaa;
+    background-color: #f8f9fa;
+    font-size: 14px;
+    color: #333;
+}
+
+.infobox table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.infobox th,
+.infobox td {
+    padding: 4px;
+    border: 1px solid #ddd;
+    text-align: left;
+}
+
+.infobox-title {
+    background-color: #ddeeff;
+    text-align: center;
+    font-weight: bold;
+    color: #333;
+}
+
+/* 画像のスタイル */
+.infobox-image {
+    text-align: center; /* 画像を中央揃え */
+    padding: 5px;
+}
+
+.infobox-image img {
+    max-width: 100%; /* 画像の幅をボックス内に収める */
+    height: auto; /* 画像の比率を維持 */
+    border: 1px solid #ddd; /* 画像の枠線 */
+    background-color: #fff;
+}
